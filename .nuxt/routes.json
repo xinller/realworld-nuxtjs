@@ -1,0 +1,43 @@
+[
+  {
+    "path": "/",
+    "component": "/Users/wuxingliu/myfile/web-study/03-03-vuex-nuxt/code/realword-nuxtjs/pages/layout",
+    "children": [
+      {
+        "path": "",
+        "name": "home",
+        "component": "/Users/wuxingliu/myfile/web-study/03-03-vuex-nuxt/code/realword-nuxtjs/pages/home"
+      },
+      {
+        "path": "/login",
+        "name": "login",
+        "component": "/Users/wuxingliu/myfile/web-study/03-03-vuex-nuxt/code/realword-nuxtjs/pages/login"
+      },
+      {
+        "path": "/register",
+        "name": "register",
+        "component": "/Users/wuxingliu/myfile/web-study/03-03-vuex-nuxt/code/realword-nuxtjs/pages/login"
+      },
+      {
+        "path": "/profile/:username",
+        "name": "profile",
+        "component": "/Users/wuxingliu/myfile/web-study/03-03-vuex-nuxt/code/realword-nuxtjs/pages/profile"
+      },
+      {
+        "path": "/settings",
+        "name": "settings",
+        "component": "/Users/wuxingliu/myfile/web-study/03-03-vuex-nuxt/code/realword-nuxtjs/pages/settings"
+      },
+      {
+        "path": "/editor",
+        "name": "editor",
+        "component": "/Users/wuxingliu/myfile/web-study/03-03-vuex-nuxt/code/realword-nuxtjs/pages/editor"
+      },
+      {
+        "path": "/article/:slug",
+        "name": "article",
+        "component": "/Users/wuxingliu/myfile/web-study/03-03-vuex-nuxt/code/realword-nuxtjs/pages/article"
+      }
+    ]
+  }
+]
